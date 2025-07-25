@@ -261,3 +261,11 @@
     text-decoration: none;
     color: rgba(107, 114, 128, 1);
 }
+
+.footer-img{
+    padding-bottom: 200px;
+}
+
+.footer-img img{
+    margin-right: 24px;
+}
