@@ -269,3 +269,86 @@
 .footer-img img{
     margin-right: 24px;
 }
+
+.latest-deals-box-1{
+    grid-area: latest-deals-box-1;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 367px;
+    height: 201px;
+    margin-right: 28px;
+    margin-bottom: 25px;
+}
+
+.latest-deals-box-2{
+    grid-area: latest-deals-box-2;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 367px;
+    height: 201px;
+}
+
+.latest-deals-box-3{
+    grid-area: latest-deals-box-3;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 753px;
+    height: 430px;
+}
+
+.latest-deals-colums{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "latest-deals-box-1 latest-deals-box-3 latest-deals-box-3"
+    "latest-deals-box-2 latest-deals-box-3 latest-deals-box-3"
+    ;
+}
+
+.latest-deals-box-1{
+    background-image: url('assets/deal-bloom.png');
+}
+.latest-deals-box-2{
+    background-image: url('assets/deal-ana.png');
+}
+
+.latest-deals-box-3{
+    background-image: url('assets/deal-zabo.png');
+}
+
+.latest-deals-box-1-heading{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 40px 47px;
+}
+
+.latest-deals-box-2-heading{
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 40px 47px;
+}
+
+.latest-deals-box-3-heading{
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 100px 128px;
+}
+
+.latest-deals-box-btn{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.latest-deals-3-box-btn{
+    color: rgba(255, 255, 255, 1);
+    font-size: 28px;
+    font-weight: 600;
+}
